@@ -9,10 +9,10 @@ class Home extends Component {
   state = {teamData: []}
 
   componentDidMount() {
-    this.getteam()
+    this.getTeam()
   }
 
-  getteam = async () => {
+  getTeam = async () => {
     const response = await fetch('https://apis.ccbp.in/ipl')
     const data = await response.json()
     const getTeamData = data.teams.map(item => ({
