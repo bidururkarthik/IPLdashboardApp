@@ -1,0 +1,26 @@
+/* Write your CSS here */
+.list_container {
+  list-style: none;
+  background-color: transparent;
+  border: 4px #475569 solid;
+  border-width: 2px;
+  border-radius: 7px;
+  height: fit-content;
+  width: 370px;
+  padding: 9px;
+  flex-wrap: wrap;
+  display: flex;
+  align-items: center;
+  margin: 5px;
+}
+
+.team_name {
+  font-family: 'Bree Serif';
+  color: white;
+  font-size: 19px;
+}
+
+.team_logo {
+  height: 110px;
+  width: 100px;
+}

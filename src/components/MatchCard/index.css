@@ -1,0 +1,29 @@
+/* Write your CSS here */
+.matchCard_container {
+  background-color: #1e293b;
+  border-radius: 4px;
+  height: fit-content;
+  width: fit-content;
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 8px;
+  flex-wrap: wrap;
+}
+
+.card_image {
+  height: 50px;
+  width: 50px;
+}
+
+.Names {
+  font-family: 'Bree serif';
+  color: white;
+}
+
+.boolens {
+  font-family: 'Bree serif';
+  color: red;
+}

@@ -1,0 +1,27 @@
+/* Write your CSS here */
+.LatestMatch_container {
+  background-color: #1e293b;
+  height: fit-content;
+  width: fit-content;
+  border-width: 4px;
+  border-style: solid;
+  border-color: #f7db00;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 9px;
+}
+
+.teamName,
+.date,
+.description {
+  font-family: 'Bree Serif';
+  color: white;
+}
+
+.team-IMAGE {
+  height: 80px;
+  width: 80px;
+  margin-left: 25px;
+  margin-right: 25px;
+}
